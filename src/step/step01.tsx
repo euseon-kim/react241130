@@ -22,8 +22,8 @@ const Step01 = () => {
 
     /**
      * Function 에서는 이렇게 작동한다.
-     * @Param name 이름ㅇ르 받아야 함
-     * @returns 인사말이 리턴ㄷ될 거에며.
+     * @Param name 이름을 받아와야 함
+     * @returns 인사말이 리턴될거에요.
      * 
      */
     function greet(name:string):string{
@@ -35,18 +35,18 @@ const Step01 = () => {
     /**
       [함수타입]
       
-      -return이 없어야 한다면 void
-      function myFunfc(x:Number) : void {
+      - return이 없어야 한다면 void
+      function myFunc(x:Number) : void {
       }
       
-      라미터가 옵션일 경우
-      function myFfunc(x?:Number)
+      - 파라미터가 옵션일 경우
+      function myFunc(x?:Number)
       
-      -return 할 자료 타입
+      - return 할 자료 타입
       function myFunc(x:Number) : number{
        return x * 2;
         }
-      -Union type 가능
+      - Union type 가능
         function myFunc(x:Number|string) {
         }
          */
